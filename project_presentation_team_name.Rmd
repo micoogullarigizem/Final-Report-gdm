@@ -1,12 +1,13 @@
 ---
 title: "Presentation of Project of GDM"
-subtitle: "Analysis of Stock Market Data of Vaccine Companies in COVID19 Pandemic"
 author: "Gizem Miçooğulları, Yasin Doğa Özkütük, Mert Taşdemir"
 date: "`r Sys.Date()`"
 output:
+  ioslides_presentation: default
   beamer_presentation:
-    theme: "AnnArbor"
-    colortheme: "dolphin"
+    theme: AnnArbor
+    colortheme: dolphin
+subtitle: Analysis of Stock Market Data of Vaccine Companies in COVID19 Pandemic
 ---
 
 ```{r setup, include=FALSE} 
